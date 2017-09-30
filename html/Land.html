@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/land.css">
+	<link rel="stylesheet" href="../font/iconfont.css">
+</head>
+<body>
+    <div class="wrap">
+       <div class="land_nav clearfix">
+          <div>北京青核桃科技有限公司</div>
+          <div><a href="../index.html">返回首页></a></div>
+       </div>
+       <div class="land_dl">
+          <p>登录</p>
+          <div class="land_inp">
+             <i class="iconfont icon-yonghuming-"></i>
+             <input type="text" class="land_inp1">
+          </div>
+          <div class="land_inp">
+             <i class="iconfont icon-mima"></i>
+             <input type="password" class="land_inp2">
+          </div>
+          <div class="mm">
+             <input type="checkbox">
+             <span class="span1">记住密码</span>
+             <span class="span2"><a href="javascript:;">忘记密码？</a></span>
+          </div>
+          <div class="land_btn">登录</div>
+       </div>
+    </div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/rem.js"></script>
+<script>
+    $('.land_btn').click(function () {
+      if($(".land_inp1").val()==""||$(".land_inp2").val()==""){
+         alert("你还未输入登录信息哟")
+      }else{
+         alert("你填写的账号或密码有误")
+      }
+   })
+</script>

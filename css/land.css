@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	font-family:SourceHanSansCN-Medium;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+a{
+	list-style: none;
+	color: black;
+	outline: none;
+	text-decoration: none;
+}
+.clearfix{
+	display: block;
+	clear: both;
+	content: ''
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.land_nav{
+	width: 100%;
+	background:rgba(0,0,0,0.2);
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+.land_nav>div{
+	float: left;
+	font-size: 0.4rem;
+    color:rgba(255,255,255,1);
+    padding-top: 0.2rem;
+	padding-left: 1rem;
+	padding-bottom: 0.2rem;
+}
+.land_nav>div:nth-child(1){
+	width: 70%;
+}
+.land_nav>div:nth-child(2)>a{
+	color:rgba(255,255,255,1); 
+}
+.land_dl{
+	position: absolute;
+	top:30%;
+	left: 65%;
+	width: 7rem;
+	height: 6rem;
+	border:1px solid rgb(6,79,122);
+	font-size: 0.5rem;
+	color:rgba(0,184,252,1);
+}
+.land_dl>p{
+	text-align: center;
+	padding-top: 0.2rem;
+	margin-bottom: 0.7rem;
+}
+.land_dl>.land_inp{
+	padding-left:0.2rem;
+	border: 1px solid rgb(6,79,122);
+	display: flex;
+	width:4.5rem;
+    height:0.4rem; 
+	padding:0.1rem;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.land_dl>.land_inp>i{
+	font-size: 0.4rem;
+	color:rgba(0,184,252,1)
+}
+.land_dl>.land_inp>input{
+	width: 80%;
+	list-style: none;
+	outline: none;
+	background: rgba(0,0,0,0.05);
+	border: none;
+	padding-left:0.2rem;
+	margin-left: 0.2rem;
+}
+.mm{
+	padding-left:1.2rem;
+	padding-top: 0.4rem;
+	font-size: 0.2rem;
+	display: flex;
+	margin:0 auto;
+}
+.mm>input{
+	list-style: none;
+	border: none;
+	background: rgba(0,0,0,0.05);
+	display: block;
+	margin-top: 0.03rem;
+}
+.mm>.span1{
+	color: white;
+	padding-left:0.1rem;
+	display: block;
+	width: 3rem;
+	/*vertical-align: top;*/
+}
+.mm>.span2>a{
+	color:rgba(0,184,252,1);
+}
+.land_btn{
+	font-size: 0.3rem;
+	width:4.5rem;
+    height:0.4rem; 
+    background:rgba(0,184,252,1);
+    color:white;
+    text-align: center;
+    line-height: 0.4rem;
+    margin:0.5rem auto;
+    padding:0.1rem;
+    cursor: pointer;
+}

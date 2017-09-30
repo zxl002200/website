@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: SourceHanSansCN-Medium;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 1.2rem;
+    background:white;
+    box-shadow: 2px 2px 5px gray;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    padding-bottom:0.2rem;
+}
+header>.logo{
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+    float: left;
+}
+.logo>a{
+	color:black;
+	font-size: 0.5rem;
+}
+header>.tiao{
+    float: left;
+}
+.tiao>ul>li{
+    float: left;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    /*padding-bottom:0.2rem;*/
+    font-size:0.3rem;
+}
+.tiao>ul>li>a{
+    color:black;
+    display:block;
+    padding-bottom: 0.2rem;
+}
+.Sign{
+    position: absolute;
+    top:35%;
+    left: 80%;
+    background:rgba(0,184,252,1);
+    z-index: 100;
+    padding:0.1rem 0.3rem;
+    color: white;
+    cursor: pointer;
+    font-size: 0.2rem;
+    border: 1px solid rgba(0,184,252,1);
+}
+.Sign>a{
+	color:white;
+	font-size: 0.2rem;
+}
+.zhuce>a{
+	color:rgba(0,184,252,1);
+	/*font-size: 0.2rem;*/
+}
+.nav{
+    padding-top: 0.2rem;
+    float: left;
+}
+.nav>.bo>a:hover{
+    color: rgba(0,184,252,1);
+     border-bottom: 3px solid rgba(0,184,252,1);
+}
+.father{
+    position: relative;
+}
+.son{
+    position: absolute;
+    background: white;
+    padding-top: 0.2rem;   
+}
+.son>li{
+    width: 4rem;
+    height: 1rem;
+    padding-left:0.5rem;
+}
+.son>li>a{
+    color: black;
+    font-size: 0.3rem;
+}
+.son>li>a:hover{
+    color: rgba(0,184,252,1);
+}
+.zhuce{
+    position: absolute;
+    top:35%;
+    left: 86%;
+    border: 1px solid red;
+    z-index: 100;
+    padding:0.1rem  0.3rem;
+    border: 1px solid rgba(0,184,252,1);
+    cursor: pointer;
+    color: rgba(0,184,252,1);
+    font-size: 0.2rem;
+}
+.btn{
+    position: absolute;
+    top:70%;
+    left: 45%;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid white;
+    color:rgba(255,255,255,1);
+    font-size: 0.4rem;
+    z-index: 100;
+}
+.btn>a{
+     color:rgba(255,255,255,1);
+}
+.add{
+    color:rgba(0,184,252,1);
+}
+.zhuce_wrap{
+	width: 100%;
+	height: 81%;
+	padding-top: 3rem;
+	background:rgba(240,240,240,1);
+}
+.zhuce_wrap>div{
+	float: left;
+	width: 50%;
+}
+.zhuce_wrap>div>img{
+	margin:1rem auto;
+}
+.zhuce_wrap>div{
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 7rem;
+}

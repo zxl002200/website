@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: SourceHanSansCN-Medium;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container-son>.swiper-wrapper>.swiper-slide{
+    position: relative;
+}
+/*.swiper-scrollbar{
+    background: rgb(255,255,255,255,0.7);
+}*/
+
+.swiper-pagination-bullet{
+    border-radius: 0px 0px;
+    width: 1.4rem;
+    height: 0.2rem;
+    background: rgba(255,255,255,0.3)
+}
+.text{
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 15rem;
+    /*font-family:PingFangSC-Regular;*/
+}
+header{
+    width: 100%;
+    height: 1.2rem;
+    background:rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;
+    z-index: 100;
+    padding-bottom:0.2rem;
+}
+header>.logo{
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+    float: left;
+}
+header>div>a{
+    font-size:0.5rem;
+    color:rgba(255,255,255,1);
+    /*line-height:1.2rem;*/
+}
+header>.tiao{
+    float: left;
+}
+.tiao>ul>li{
+    float: left;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    /*padding-bottom:0.2rem;*/
+    font-size:0.3rem;
+    /*font-family:PingFangSC-Regular;*/
+    /*line-height:1.2rem;*/
+}
+.tiao>ul>li>a{
+    color:rgba(255,255,255,1);
+    display:block;
+    padding-bottom: 0.2rem;
+}
+.bo{
+    position: relative;
+}
+.bo>input{
+    position: absolute;
+    width: 3rem;
+    height: 1rem;
+}
+.Sign{
+    position: absolute;
+    top:30%;
+    left: 80%;
+    background:rgba(0,184,252,1);
+    z-index: 100;
+    padding:0.1rem 0.4rem;
+    color: white;
+    cursor: pointer;
+    font-size: 0.3rem;
+    border: 1px solid rgba(0,184,252,1);
+}
+.Sign>a{
+    font-size: 0.25rem;
+}
+.zhuce>a{
+    font-size: 0.25rem;
+}
+.nav{
+    padding-top: 0.2rem;
+    float: left;
+}
+.nav>.bo>a:hover{
+    color: rgba(0,184,252,1);
+     border-bottom: 3px solid rgba(0,184,252,1);
+}
+.father{
+    position: relative;
+}
+.son{
+    position: absolute;
+    background: white;
+    padding-top: 0.2rem;   
+}
+.son>li{
+    width: 4rem;
+    height: 1rem;
+    padding-left:0.5rem;
+}
+.son>li>a{
+    color: black;
+    font-size: 0.3rem;
+}
+.son>li>a:hover{
+    color: rgba(0,184,252,1);
+}
+.zhuce{
+    position: absolute;
+    top:30%;
+    left: 86%;
+    z-index: 100;
+    padding:0.1rem  0.4rem;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 0.3rem;
+}
+.btn{
+    position: absolute;
+    top:70%;
+    left: 45%;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid white;
+    color:rgba(255,255,255,1);
+    font-size: 0.4rem;
+    z-index: 100;
+}
+.btn>a{
+     color:rgba(255,255,255,1);
+}
+.add{
+    color:rgba(0,184,252,1);
+}
+/* 第二页 */
+.slide2{
+    background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slide3{
+     background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slide4{
+     background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slide5{
+     background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slide6{
+     background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.silde7{
+     background:rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.xbt{
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top:1.6rem;
+}
+.border{
+    width: 1.3rem;
+    height: 0.1rem;
+    background:rgba(0,184,252,1);
+    margin: 0.1rem auto;
+}
+.content{
+    width: 100%; 
+}
+.content>div{
+    float: left;
+}
+.content>.img{
+    width: 50%;
+}
+.content>.img>img{
+    display: block;
+    margin: 0 auto;
+    width: 7rem;
+}
+.content>.text{
+    width: 35%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    text-align: left;
+}
+.content>.text>p{
+    font-size: 0.4rem;
+    font-family:SourceHanSansCN-Normal;
+    color:rgba(51,51,51,1);
+    line-height:0.6rem;
+}
+.content2{
+    width: 100%;
+    background: white;
+    margin-top: 1.6rem;
+   flex-grow: 1;
+}
+.content2>div{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top:0.6rem;
+    font-size:0.4rem;
+    color:rgba(102,102,102,1);
+}
+.content2>div{
+    position: relative;
+}
+.content2>div>p:nth-child(1){
+    padding-bottom:0.1rem;
+}
+.content2>div>p:nth-child(2){
+    font-size:0.6rem;
+    color:rgba(0,184,252,1);
+    line-height:1.8rem;
+}
+.content2>div:nth-child(1)>p:nth-child(2)>span{
+    position: absolute;
+    top:0.2rem;
+    left: 62%;
+}
+.content2>div:nth-child(2)>p:nth-child(2)>span{
+    position: absolute;
+    top:0.2rem;
+    left: 55%;
+}
+.college{
+    padding-top: 1rem;
+    padding-left:4rem;
+    padding-right: 4rem;
+    padding-bottom:1rem;
+}
+.college>li{
+    float: left;
+    width: 25%;
+}
+.college>li>img{
+    width:5rem;
+    display: block;
+    margin: 0.2rem auto;
+    border: 1px dotted rgba(255,255,255,1);
+}
+.map{
+    float: left;
+    width:50%;
+}
+.map>div{
+    margin: 1rem auto;
+}
+.tel{
+    float: left;
+    padding-left: 2rem;
+    /*padding-top:1rem;*/
+}
+.tel>p>i{
+    color:rgba(0,183,251,1);
+    font-size: 0.5rem;
+}
+.tel>p>span{
+    font-size: 0.4rem;
+}
+.inp{
+    margin-top: 0.4rem;
+}
+.inp>div{
+    float: left;
+    /*border: 1px solid rgba(102,102,102,1);*/
+}
+.inp>div>input{
+    display: block;
+    height: 0.3rem;
+    width: 3.5rem;
+    padding:0.1rem 0.3rem;
+    outline: none;
+    border:1px solid rgba(153,153,153,1);
+}
+textarea{
+    margin-top: 0.3rem;
+    height: 3rem;
+    width: 8.4rem;
+    list-style: none;
+    padding:0.1rem;
+    outline:none;
+}
+.tijiao{
+    width: 8.6rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background: rgba(0,183,251,1);
+}
+.tijiao>a{
+    color:white;
+    display: block;
+    font-size: 0.4rem;
+}

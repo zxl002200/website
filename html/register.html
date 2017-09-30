@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery.js" ;></script>
+    <script src="../js/rem.js"></script>
+</head>
+<body>
+	<header class="clearfix">
+    <div class="logo">
+      <a href="javascript:;">北京青核桃科技有限公司</a>
+    </div>
+    <div class="tiao">
+        <ul class=" nav clearfix">
+        <li class="bo">
+           <a href="../index.html" class="click_a">公司介绍</a>
+        </li>
+        <li class="fater bo">
+           <a href="javascript:;" class="xila ">产品介绍 <i class="iconfont icon-xiala-copy"></i></a>
+           <ul class="son" style="display: none;">
+              <li><a href="../index.html" class="click_a">π计划科技智能情报</a></li>
+              <li><a href="../index.html" class="click_a">π计划科技知识图谱</a></li>
+              <li><a href="../index.html" class="click_a">π计划科技科技专家智能推荐</a></li>
+              <li><a href="../index.html" class="click_a">π计划科技分析评估</a></li>
+           </ul>
+        </li>
+        <li class="bo"><a href="../index.html" class="click_a">战略合作伙伴</a></li>
+        <li class="bo"><a href="../index.html" class="click_a">联系我们</a></li>
+    </ul>
+    </div>
+    <div class='Sign'><a href="land.html">登录</a></div>
+    <div class='zhuce'><a href="javascript:;">注册</a></div>
+</header>
+<div class="zhuce_wrap clearfix">
+   <div>
+      <img src="../img/zhuce_bg.png" alt="">
+   </div>
+   <div>
+      我们还未开放注册途径，请耐心等待！
+   </div>
+</div>
+<script>
+    $(".fater").hover(function(){
+    $(".son").css("display","block")
+     $(".xila").css({"border-bottom":" 3px solid rgba(0,184,252,1)","color":"rgba(0,184,252,1)"})
+},function(){
+    $(".son").css("display","none")
+     $(".xila").css({"border-bottom":" none","color":"black"})
+})
+</script>
+</body>
+</html>
